@@ -16,7 +16,7 @@ header{
   line-height:60px;
 }
 
-.navigation{
+.navigation ul{
     list-style-type: none;
     padding: 1%;
     display:flex;
@@ -29,7 +29,6 @@ header{
 nav a{
   text-decoration:none;
   font-size:20px;
-  font-family: 'Baloo Tammudu 2', cursive;
   color:#FFFFFF;
   text-transform:uppercase;
   margin-bottom:-10px;
@@ -38,7 +37,6 @@ nav a{
 .logo a{
   text-decoration:none;
   font-size:20px;
-  font-family: 'Baloo Tammudu 2', cursive;
   color:#FFFFFF;
   text-transform:uppercase;
 }
@@ -47,7 +45,7 @@ nav li a:hover{
   color:#F9A602;
 }
 
-.button{
+.nav_button{
   line-height:35px;
   display:inline-block;
   margin-right: 35px;
