@@ -1,28 +1,54 @@
-.flex-container {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    flex-direction: row;
+.wrapper{
+    width:1170px;
 }
 
-.nav_bar {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(255, 0, 200);
-    flex-direction: row;
+header{
+  height:55px;
+  background-color:#A91B0D;
+  width:100%;
+  z-index:12;
+  position:fixed;
 }
 
-.flex-container2 {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
-    flex-direction: row;
+.logo{
+  width:10%;
+  float:left;
+  line-height:60px;
 }
-.flex-item {
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
+
+.navigation{
+    list-style-type: none;
+    padding: 1%;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    float:right;
+    margin-right:-150px;
+}
+
+nav a{
+  text-decoration:none;
+  font-size:20px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:#FFFFFF;
+  text-transform:uppercase;
+  margin-bottom:-10px;
+}
+
+.logo a{
+  text-decoration:none;
+  font-size:20px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:#FFFFFF;
+  text-transform:uppercase;
+}
+
+nav li a:hover{
+  color:#F9A602;
+}
+
+.button{
+  line-height:35px;
+  display:inline-block;
+  margin-right: 35px;
 }
