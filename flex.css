@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 header { 
   background-color: #FFFFFF; 
   width: 100%; 
@@ -258,7 +263,7 @@ nav a {
   transition: all 0.3s ease;
 }
 
-.contact_item:hover {
+.contact_item:hover, .project_card:hover, .skill_card:hover {
   background-color: #f0f0f0;
   transform: translateY(-3px);
 }
