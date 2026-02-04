@@ -92,15 +92,21 @@ nav a {
 }
 
 .hello{
-  position: absolute;
-  top: 240px;
-  left: 650px;
+  margin-top: 240px;
+  margin-left: 650px;
 
   color: #023047;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .nn{
   font-weight: bold;
+}
+
+.front{
+  margin-top: 20px;
+  margin-left: 650px;
+  color: #219ebc;
+  font-family: "Montserrat", sans-serif;
 }
