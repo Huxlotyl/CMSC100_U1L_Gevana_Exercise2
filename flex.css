@@ -13,8 +13,9 @@ header{
 }
 
 .logo{
+  flex: 0 0 auto;
+  marigin: 0;
   width:10%;
-  float:left;
   line-height:60px;
 }
 
