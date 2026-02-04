@@ -128,7 +128,7 @@ nav a {
 
 /*SKILLS*/
 #skills{
-  height: 400px;
+  height: 300px;
 }
 
 .sk {
@@ -164,7 +164,7 @@ nav a {
 }
 
 .sk_title i{
-  color: #023047;
+  color: #219ebc;
   font-size: 18px;
   margin-right: 8px;
 }
