@@ -92,8 +92,8 @@ nav a {
 }
 
 .hello{
-  margin-top: 240px;
-  margin-left: 650px;
+  margin-top: 200px;
+  margin-left: 600px;
 
   color: #023047;
   font-family: "Montserrat", sans-serif;
@@ -105,8 +105,8 @@ nav a {
 }
 
 .front{
-  margin-top: 20px;
-  margin-left: 650px;
+  margin-top: 10px;
+  margin-left: 600px;
   color: #219ebc;
   font-family: "Montserrat", sans-serif;
 }
