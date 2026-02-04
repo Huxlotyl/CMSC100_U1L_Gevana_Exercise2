@@ -119,11 +119,10 @@ nav a {
   width: 62%;
 }
 
-.section_title{
-  width: 72%;
-  margin: 0 auto;
+.section_title {
   font-family: "Montserrat", sans-serif;
   color: #023047;
+  margin-bottom: 20px;
 }
 
 /*SKILLS*/
@@ -235,12 +234,6 @@ nav a {
   width: 80%;
   margin: 40px auto;
   text-align: center;
-}
-
-.contact_title {
-  font-family: "Montserrat", sans-serif;
-  color: #023047;
-  margin-bottom: 20px;
 }
 
 .contact_container {
