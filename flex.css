@@ -192,6 +192,10 @@ nav a {
 }
 
 /*PROJECTS*/
+#projects{
+  margin-bottom: 50px;
+}
+
 .project_card {
   display: flex;                 
   justify-content: space-between;
@@ -224,4 +228,48 @@ nav a {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #333;
+}
+
+/*CONTACT*/
+#contact {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.contact_title {
+  font-family: "Montserrat", sans-serif;
+  color: #023047;
+  margin-bottom: 20px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding: 10px 15px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.contact_item:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+}
+
+.contact_icon {
+  font-size: 18px;
+  color: #023047;
 }
