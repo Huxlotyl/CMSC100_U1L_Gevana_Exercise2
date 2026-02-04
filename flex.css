@@ -92,9 +92,8 @@ nav a {
 }
 
 .about_me{
-  margin-top: 18%;
+  margin-top: 17%;
   margin-left: 43%;
-  width: 30%;
 }
 
 .hello{
@@ -117,4 +116,5 @@ nav a {
   font-family: "Source Code Pro", monospace;
   font-size: 13px;
   color: #023047;
+  width: 40%;
 }
