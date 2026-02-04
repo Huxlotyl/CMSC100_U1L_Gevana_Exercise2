@@ -120,6 +120,12 @@ nav a {
 }
 
 /*SKILLS*/
+.experties{
+  width: 72%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #023047;
+}
 .sk {
   width: 72%;
   margin: 0 auto;
