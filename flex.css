@@ -91,10 +91,12 @@ nav a {
   position: relative;         
 }
 
-.hello{
+.about_me{
   margin-top: 225px;
   margin-left: 600px;
+}
 
+.hello{
   color: #023047;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -106,7 +108,6 @@ nav a {
 
 .front{
   margin-top: 10px;
-  margin-left: 600px;
   color: #219ebc;
   font-family: "Montserrat", sans-serif;
 }
