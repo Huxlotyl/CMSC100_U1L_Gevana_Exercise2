@@ -119,13 +119,14 @@ nav a {
   width: 62%;
 }
 
-/*SKILLS*/
-.experties{
+.section_title{
   width: 72%;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   color: #023047;
 }
+
+/*SKILLS*/
 .sk {
   width: 72%;
   margin: 0 auto;
