@@ -83,10 +83,18 @@ nav a {
 /*AUTOBIOGRAPHY*/
 #autobio {
   background-image: url('images/autobio_pic.png'); 
-  background-size: 90% auto;       
-  background-position: top center;  
+  background-size: 90% auto; 
+  background-position: top center; 
   background-repeat: no-repeat; 
-  height: 800px;                
-  color: #001d3d;               
-  padding: 40px;                
+  height: 800px;  
+  padding: 40px;
+  position: relative;         
+}
+
+.hello{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  color: #023047;
+  font-size: 10px;
 }
