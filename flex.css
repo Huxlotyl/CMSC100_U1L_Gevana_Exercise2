@@ -93,8 +93,10 @@ nav a {
 
 .hello{
   position: absolute;
-  top: 200px;
+  top: 400px;
   left: 300px;
+
   color: #023047;
-  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
