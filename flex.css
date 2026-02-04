@@ -191,13 +191,6 @@ nav a {
 }
 
 /*PROJECTS*/
-.section_title {
-  font-family: "Montserrat", sans-serif;
-  color: #023047;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .project_card {
   display: flex;                 
   justify-content: space-between;
