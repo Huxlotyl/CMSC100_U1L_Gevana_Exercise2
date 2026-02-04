@@ -10,20 +10,16 @@ header{
 }
 
 .logo{
-  flex: 0 0 auto;
-  marigin: 0;
+  margin: 0;
   width:10%;
   line-height:60px;
+  float: left;
 }
 
 .navigation ul{
     list-style-type: none;
-    padding: 1%;
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    float:right;
-    margin-right:-150px;
+    padding: 0;
+    float: right;
 }
 
 nav a{
@@ -31,7 +27,7 @@ nav a{
   font-size:20px;
   color:#FFFFFF;
   text-transform:uppercase;
-  margin-bottom:-10px;
+  margin-top:-10px;
 }
 
 .logo a{
@@ -41,12 +37,8 @@ nav a{
   text-transform:uppercase;
 }
 
-nav li a:hover{
-  color:#F9A602;
-}
-
 .nav_button{
-  line-height:35px;
+  line-height:30px;
   display:inline-block;
   margin-right: 35px;
 }
