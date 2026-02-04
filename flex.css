@@ -84,7 +84,7 @@ nav a {
 #autobio {
   background-image: url('images/autobio_pic.png'); 
   background-size: contain;       
-  background-position: center;  
+  background-position: top center;  
   background-repeat: no-repeat; 
   height: 1080px;                
   color: #001d3d;               
