@@ -249,7 +249,7 @@ nav a {
   flex-wrap: wrap;
 }
 
-.contact_item {
+.contact_item, .project_card, .skill_card {
   display: flex;
   align-items: center;
   gap: 8px;
