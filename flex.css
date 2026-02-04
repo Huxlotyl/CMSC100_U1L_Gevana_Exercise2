@@ -94,12 +94,13 @@ nav a {
 .about_me{
   margin-top: 15%;
   margin-left: 43%;
+  width: 60%;
 }
 
 .hello{
-  color: #023047;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
+  color: #023047;
 }
 
 .nn{
@@ -107,7 +108,13 @@ nav a {
 }
 
 .front{
-  margin-top: 10px;
-  color: #219ebc;
   font-family: "Montserrat", sans-serif;
+  color: #219ebc;
+  margin-top: 10px;
+}
+
+.about_info{
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px;
+  color: #023047;
 }
