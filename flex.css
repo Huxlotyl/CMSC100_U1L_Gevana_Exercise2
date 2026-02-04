@@ -1,5 +1,5 @@
 header { 
-  background-color: #001d3d; 
+  background-color: #FFFFFF; 
   width: 100%; 
   position: fixed; 
   top: 0; 
@@ -11,21 +11,30 @@ header {
 .logo {
   float: left;
   line-height: 60px;
-  margin-left: 100px; 
+  margin-left: 120px; 
 }
 
 .logo a{
+  font-family: "Montserrat", sans-serif;
   text-decoration:none;
   font-size:20px;
-  color:#FFFFFF;
-  text-transform:uppercase;
+  font-weight: bold;
+}
+
+.logo_eliza{
+  color: #023047;
+  margin-right: -5px;
+}
+
+.logo_gev{
+  color: #219ebc;
 }
 
 .navigation {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* centers nav block */
+  transform: translate(-50%, -50%);
 }
 
 .navigation ul {
@@ -43,7 +52,7 @@ nav a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   font-size: 14px;
-  color: #fff;
+  color: #023047;
   text-transform: uppercase;
 }
 
@@ -56,13 +65,17 @@ nav a {
 .contact{
   float: right;
   line-height: 60px;
-  margin-right: 100px; 
+  margin-right: 120px; 
 }
 
 .contact a{
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   font-size: 14px;
-  color: #fff;
+  color: #219ebc;
   text-transform: uppercase;
+
+  border: 1px solid #219ebc;
+  padding: 6px 14px;
+  border-radius: 7px;
 }
