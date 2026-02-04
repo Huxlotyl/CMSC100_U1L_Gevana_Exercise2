@@ -79,3 +79,14 @@ nav a {
   padding: 6px 14px;
   border-radius: 7px;
 }
+
+/*AUTOBIOGRAPHY*/
+#autobio {
+  background-image: url('images/background.jpg'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 1080px;                
+  color: #001d3d;               
+  padding: 40px;                
+}
