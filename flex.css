@@ -124,10 +124,43 @@ nav a {
   width: 72%;
   height: 300px;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .experties{
   font-family: "Montserrat", sans-serif;
   color: #023047;
+}
+
+.web{
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.title{
+  color: #023047;
+  margin-bottom: 10px;
+}
+
+.globe{
+  font-size: 16px;
+}
+
+.web_title{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: bold; 
+  font-size: 16px;
+}
+
+.web ul{
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.ski_list { 
+  font-family: "Open Sans", sans-serif; 
+  font-size: 14px; 
+  margin: 6px 0; 
 }
