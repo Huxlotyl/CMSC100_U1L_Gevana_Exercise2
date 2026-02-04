@@ -120,47 +120,53 @@ nav a {
 }
 
 /*SKILLS*/
-.sk{
-  width: 72%;
-  height: 300px;
+.sk {
+  width: 90%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.experties{
-  font-family: "Montserrat", sans-serif;
-  color: #023047;
-}
-
-.web{
+.skill_card{
+  flex: 1;
+  min-width: 220px;
+  margin: 10px;
   padding: 20px;
   border: 1px solid lightgray;
   border-radius: 6px;
-  text-align: center;
+  background-color: #fff;
 }
 
-.title{
-  color: #023047;
+.sk_title{
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
+  color: #023047;
 }
 
-.globe{
+.sk_title i{
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.skill_title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: 16px;
-}
-
-.web_title{
-  font-family: "Montserrat", sans-serif; 
-  font-weight: bold; 
-  font-size: 16px;
-}
-
-.web ul{
-  list-style: none;
-  padding: 0; 
   margin: 0;
 }
 
-.ski_list { 
-  font-family: "Open Sans", sans-serif; 
-  font-size: 14px; 
-  margin: 6px 0; 
+.skill_card ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill_card li{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 6px 0;
+  color: #333;
 }
