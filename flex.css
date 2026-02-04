@@ -154,6 +154,7 @@ nav a {
   border: 1px solid lightgray;
   border-radius: 6px;
   background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .sk_title{
@@ -200,7 +201,7 @@ nav a {
   border-radius: 8px;
   padding: 20px;
   margin: 20px auto;
-  width: 80%;
+  width: 72%;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -212,6 +213,10 @@ nav a {
   background-color: #e0e0e0;     
   border-radius: 6px;
   margin-right: 20px;
+}
+
+.project_title{
+  color: #219ebc;
 }
 
 .project_desc {
