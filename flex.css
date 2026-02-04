@@ -127,9 +127,12 @@ nav a {
 }
 
 /*SKILLS*/
+#skills{
+  height: 400px;
+}
+
 .sk {
   width: 72%;
-  height: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
